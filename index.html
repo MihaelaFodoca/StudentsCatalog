@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Catalog note</title>
+    <link rel="stylesheet" href="CSS/StyleCatalogElevi.css">
+
+</head>
+<body>
+ <center><div id="lista_elevi_wrapper">
+        <h1>CATALOG DE NOTE</h1>
+        <section id="data-input">
+            <input id="name" type="text" placeholder="Nume elev">
+            <input type="button" id="add" value="Adauga elev">
+        </section>
+        <br>
+        <section id="content">
+            <input type="button" id="sortAsc" value="Sortare Crescatoare" onclick="">
+            <input type="button" id="sortDesc" value="Sortare Descrescatoare" onclick="">
+    <br>
+    <br>
+    
+            <table id="catalog" border=1px>
+               <tr id="hidden1"> <th>Nume</th><th>Medie note elev</th><th>Vezi notele</th></tr>
+               <tbody id="nume"></tbody>
+            </table>
+        </section>
+        <br>
+        
+        <section id="note_elev_wrapper">
+            <input type="button" id="hide_marks" value="Ascunde notele"><br><br>
+            <p>Note student:</p>
+            <input type="text" id="student_name"><br><br>
+            <input id="add_mark" type="number" placeholder="Adauga nota" min="1">
+            <input type="button" id="addMark" value="Adauga nota">
+            <br>
+            <br>
+            <table id="nota" border=1px>
+                <!-- <tr id="hidden2"> <th>Nota</th></tr> -->
+                <tbody id="note"></tbody>
+     
+             </table>
+             <br>
+             <input type="button" id="sortAscMarks" value="Sortare Crescatoare">
+                <input type="button" id="sortDescMarks" value="Sortare Descrescatoare">
+        </section>
+        
+    
+    </div></center>
+    <script src="JS/ScriptCatalogElevi.js"></script>
+
+</body>
+</html>

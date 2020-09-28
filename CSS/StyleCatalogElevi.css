@@ -1,0 +1,64 @@
+#note_elev_wrapper{
+    display: none;
+}
+#hide_marks{
+    background-color: rgb(255, 115, 115);
+}
+#vezi{
+    background-color: rgb(146, 240, 146);
+}
+#add{
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+}
+#lista_elevi_wrapper{
+    background-color: rgb(235, 233, 233);
+    width:600px ;
+    margin: auto;
+    padding: 10px;
+}
+#hidden1{
+   
+    display: none;
+}
+#hidden2{
+    display: none;
+}
+
+th td{
+    border: 1px;
+    border-color: blueviolet;
+}
+#name   {
+border-radius: 5px;
+}
+#name{
+    border-radius: 5px;
+    }
+
+#catalog{
+    border-color:white;
+    border-radius: 3px;
+}
+#sortAsc, #sortDesc{
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+}
+#student_name{
+    font-weight: bolder;
+    text-align: center;
+    border-color: none;
+    border-radius: 5px;
+}
+#nota{
+    border-color:white;
+    border-radius: 4px; 
+}
+#addMark{
+   
+    border-radius: 3px;  
+}
+#add_mark{
+    border-color:white;
+    border-radius: 4px; 
+}
